@@ -242,7 +242,7 @@ void CleanUpSingleDIO(tSingleDioData *pDioData)
 int main(int argc, char *argv[])
 {
 
- restartFlag=0;
+ int restartFlag=0;
 
   while(!restartFlag) { 
    int i,k,j=-1, failFlag[3], initFlag=1;

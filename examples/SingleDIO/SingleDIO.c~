@@ -300,7 +300,7 @@ if(!initFlag) {
 
    for(k=0;k<2;k++) {
 
-      fprintf(f, "Test #%d\n", k);
+      fprintf(f, "Test #%d\n", (k+1));
 
       // run the acquisition
       failFlag[k] = SingleDIO(&G_DioData);
